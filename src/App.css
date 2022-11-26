@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+.App {
+  width: 40vw;
+  border-radius: 10px;
+  background: #1A1B21;
+  margin: auto;
+  font-family: 'Inter', sans-serif;
+  color: whitesmoke;
+}
+
+.title {
+  font-weight: 300;
+  color: #F3BF99;
+  margin-top: 2px;;
+}
+.name {
+  font-weight:800;
+  /* border: 1px solid red; */
+  margin-bottom: 2px;
+}
+.data, .middle-container {
+ margin: 3rem;
+}
+
+.info{
+  text-align: center;
+  width: 100%;
+}
+
+.button__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  padding: 1rem 2rem;  
+  border-radius: 5px;
+  width: 20%;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  place-content: center;
+  gap: .25rem;
+}
+
+.button__email:visited {
+  color: black;
+}
+.button__LinkedIn:visited {
+  color: whitesmoke;
+}
+
+.button__email {
+  background-color: whitesmoke;
+  color: black;
+}
+
+.button__LinkedIn {
+  background-color: #5093e2;
+}
+
+.info__image {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.footer {
+  background-color: #1C1C1C;
+  padding: 2rem 6rem;
+  border-radius: 0 0 5px 5px;
+}
+
+.footer-container {
+  /* margin: auto; */
+  /* border: 1px solid teal; */
+  display: flex;
+  justify-content: space-between;
+}
