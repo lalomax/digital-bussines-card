@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://lalomax.github.io/digital-business-card/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
