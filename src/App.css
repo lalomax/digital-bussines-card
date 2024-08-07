@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
 .App {
-  width: 40vw;
+  /* width: 40vw; */
   border-radius: 10px;
   background: #1A1B21;
   margin: auto;
   font-family: 'Inter', sans-serif;
   color: whitesmoke;
+}
+
+@media only screen and (min-width: 768px) {
+  .App {width: 60vw;}
 }
 
 .title {
